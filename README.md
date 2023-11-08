@@ -1,44 +1,127 @@
-# Virtual Fitting Room Project
+# LLMSurvey
 
-## Introduction
 
-This repository contains the implementation of the Virtual Fitting Room project. Our work aims to develop a solution that allows users to virtually try on clothes, providing a novel shopping experience that bridges the gap between online and physical retail.
 
-This project is based on our paper: [title of the paper](link to the paper).
+This repository corresponds to the paper [**"Image-Based Virtual Try-On: A Survey"**](https://arxiv.org/abs/2303.18223).
+If you find our survey useful for your research, please cite the following paper:
 
-## What We Have Done
+```
+@article{LLMSurvey,
+    title={A Survey of Large Language Models},
+    author={Zhao, Wayne Xin and Zhou, Kun and Li, Junyi and Tang, Tianyi and Wang, Xiaolei and Hou, Yupeng and Min, Yingqian and Zhang, Beichen and Zhang, Junjie and Dong, Zican and Du, Yifan and Yang, Chen and Chen, Yushuo and Chen, Zhipeng and Jiang, Jinhao and Ren, Ruiyang and Li, Yifan and Tang, Xinyu and Liu, Zikang and Liu, Peiyu and Nie, Jian-Yun and Wen, Ji-Rong},
+    year={2023},
+    journal={arXiv preprint arXiv:2303.18223},
+    url={http://arxiv.org/abs/2303.18223}
+}
+```
 
-Here, provide a brief overview of the work you have done in the project. Discuss the models you have built, the challenges you have faced, and the solutions you have come up with.
 
-## Metrics Calculation
+## ⏲️ The Timeline of virtual try-on papers
 
-The `metrics` directory contains code for calculating various performance metrics of our models. Below is a description of the main scripts:
+We have listed some of the most representative works in the field of virtual fitting from recent years.
 
-- `metric1.py`: This script calculates metric 1. Here is how to run it:
-python metric1.py --input=<input_file> --model=<model_file>
-- `metric2.py`: This script calculates metric 2. Here is how to run it:
-python metric2.py --input=<input_file> --model=<model_file>
+![Time-line](readme/Time_line.png)
 
-## Test Results
 
-The `results` directory contains the test results of our models. Below is a summary of these results:
+## 🔍 Experiments
 
-- **Model 1**: 
+### Data prepare
 
-  - Metric 1: xx.xx
-  - Metric 2: xx.xx
-  - Summary of the performance of the model, and any insights you have gained from these results.
+To ensure a fair test for each model, we produced a high-resolution (1024x768) version of the [**VITON*](https://github.com/xthan/VITON). dataset, following the data preprocessing method of [**VITON-HD**](https://github.com/shadow2496/VITON-HD).
 
-- **Model 2**: 
+- 14221 train
+  - images
+  - cloth
+  - segmentation
+  - densepose
+  - keypoints
+  - agnostic-person
+- 2032 test
 
-  - Metric 1: xx.xx
-  - Metric 2: xx.xx
-  - Summary of the performance of the model, and any insights you have gained from these results.
+High-resolution [**Dataset(Coming Soon)**](https://github.com/little-misfit/Survey-Of-Virtual-Try-On).
 
-## Conclusion and Future Work
+### Experiment Results
 
-Conclude the README with a summary of what has been achieved in the project, and any plans for future work.
+We evaluated the models through two perspectives: visual results and quantitative metrics.
 
-## Contact Information
+Visual results:
+![visual results](readme/keshihua.jpg)
 
-For any questions or discussions, feel free to open an issue, or contact us via [email](your@email.com).
+More visual results from [**here(Coming Soon)**](https://github.com/little-misfit/Survey-Of-Virtual-Try-On).
+
+Quantitative metrics:
+SSIM:
+![SSIM](readme/plot_SSIM.png)
+IS:
+![IS](readme/plot_IS.png)
+FID:
+![FID](readme/plot_FID.png)
+LPIPS:
+![LPIPS](readme/plot_LPIPS.png)
+Semantic Score:
+![Semantic Score](readme/plot_Clip.png)
+
+
+
+
+## Papers & Data Sets
+
+<details><summary>Papers</summary>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-baqh" align="center" rowspan="2">model</th>
+    <th class="tg-0lax" align="center" rowspan="2">Release Time</th>
+    <th class="tg-0lax" align="center" rowspan="2">Paper</th>
+    <th class="tg-0lax" align="center" rowspan="2">Code</th>
+  </tr>
+  <tr>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    
+    <td class="tg-baqh" align="center">CAGAN</td>
+    <td class="tg-0lax" align="center">2017</td>
+    <td class="tg-0lax" align="center"><a href="https://arxiv.org/abs/1709.04695">Paper</a></td>
+    <td class="tg-0lax" align="center">-</td>
+  </tr>
+
+
+</tbody>
+</table>
+</details>
+
+<details><summary>Data Sets</summary>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-baqh" align="center" rowspan="2">Data set</th>
+    <th class="tg-0lax" align="center" rowspan="2">Release Time</th>
+    <th class="tg-0lax" align="center" rowspan="2">Resolution</th>
+	<th class="tg-0lax" align="center" rowspan="2">Quantity Train/Test</th>
+    <th class="tg-0lax" align="center" rowspan="2">Link</th>
+  </tr>
+  <tr>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    
+    <td class="tg-baqh" align="center">VITON</td>
+    <td class="tg-0lax" align="center">2018</td>
+    <td class="tg-0lax" align="center">256*192</td>
+	<td class="tg-0lax" align="center">14221/2032</td>
+    <td class="tg-0lax" align="center"><a href="https://github.com/xthan/VITON">Link</a></td>
+  </tr>
+
+
+</tbody>
+</table>
+</details>
+
+
+## Acknowledgments
+
+We acknowledge the contributions of [**awesome-virtual-try-on**](https://github.com/minar09/awesome-virtual-try-on) to the community, which saved us time in collecting literature.
+
