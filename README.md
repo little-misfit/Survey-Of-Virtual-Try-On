@@ -25,7 +25,7 @@ We have listed some of the most representative works in the field of virtual fit
 
 ### Data prepare
 
-To ensure a fair test for each model, we produced a high-resolution (1024x768) version of the [**VITON*](https://github.com/xthan/VITON). dataset, following the data preprocessing method of [**VITON-HD**](https://github.com/shadow2496/VITON-HD).
+To ensure a fair test for each model, we produced a high-resolution (1024x768) version of the [**VITON**](https://github.com/xthan/VITON). dataset, following the data preprocessing method of [**VITON-HD**](https://github.com/shadow2496/VITON-HD).
 
 - 14221 train
   - images
@@ -78,7 +78,6 @@ Semantic Score:
 </thead>
 <tbody>
   <tr>
-    
     <td class="tg-baqh" align="center">CAGAN</td>
     <td class="tg-0lax" align="center">2017</td>
     <td class="tg-0lax" align="center"><a href="https://arxiv.org/abs/1709.04695">Paper</a></td>
@@ -103,16 +102,15 @@ Semantic Score:
   <tr>
   </tr>
 </thead>
+
 <tbody>
   <tr>
-    
     <td class="tg-baqh" align="center">VITON</td>
     <td class="tg-0lax" align="center">2018</td>
     <td class="tg-0lax" align="center">256*192</td>
 	<td class="tg-0lax" align="center">14221/2032</td>
     <td class="tg-0lax" align="center"><a href="https://github.com/xthan/VITON">Link</a></td>
   </tr>
-
 
 </tbody>
 </table>
