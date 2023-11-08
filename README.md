@@ -1,6 +1,4 @@
-# LLMSurvey
-
-
+# Image-Based Virtual Try-On: A Survey
 
 This repository corresponds to the paper [**"Image-Based Virtual Try-On: A Survey"**](https://arxiv.org/abs/2303.18223).
 If you find our survey useful for your research, please cite the following paper:
