@@ -1,15 +1,16 @@
 # Image-Based Virtual Try-On: A Survey
 
-This repository corresponds to the paper [**"Image-Based Virtual Try-On: A Survey"**](https://arxiv.org/abs/2303.18223).
+This repository corresponds to the paper [**"Image-Based Virtual Try-On: A Survey"**](http://arxiv.org/abs/2311.04811).
 If you find our survey useful for your research, please cite the following paper:
 
 ```
-@article{LLMSurvey,
-    title={A Survey of Large Language Models},
-    author={Zhao, Wayne Xin and Zhou, Kun and Li, Junyi and Tang, Tianyi and Wang, Xiaolei and Hou, Yupeng and Min, Yingqian and Zhang, Beichen and Zhang, Junjie and Dong, Zican and Du, Yifan and Yang, Chen and Chen, Yushuo and Chen, Zhipeng and Jiang, Jinhao and Ren, Ruiyang and Li, Yifan and Tang, Xinyu and Liu, Zikang and Liu, Peiyu and Nie, Jian-Yun and Wen, Ji-Rong},
-    year={2023},
-    journal={arXiv preprint arXiv:2303.18223},
-    url={http://arxiv.org/abs/2303.18223}
+@misc{Image_Based_Virtual_Try-On_A_Survey,
+      title={Image-Based Virtual Try-On: A Survey}, 
+      author={Dan Song and Xuanpu Zhang and Juan Zhou and Weizhi Nie and Ruofeng Tong and An-An Liu},
+      year={2023},
+      eprint={2311.04811},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
 }
 ```
 
