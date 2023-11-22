@@ -1,4 +1,4 @@
-# Image-Based Virtual Try-On: A Survey
+![image](https://github.com/little-misfit/Survey-Of-Virtual-Try-On/assets/77872187/e78052d2-3827-4fee-b7d0-9a8085194caf)# Image-Based Virtual Try-On: A Survey
 
 This repository corresponds to the paper [**"Image-Based Virtual Try-On: A Survey"**](http://arxiv.org/abs/2311.04811).
 If you find our survey useful for your research, please cite the following paper:
@@ -112,6 +112,42 @@ Semantic Score:
 	<td class="tg-0lax" align="center">14221/2032</td>
     <td class="tg-0lax" align="center"><a href="https://github.com/xthan/VITON">Link</a></td>
   </tr>
+  <tr>
+    <td class="tg-baqh" align="center">MPV</td>
+    <td class="tg-0lax" align="center">2019</td>
+    <td class="tg-0lax" align="center">256*192</td>
+	<td class="tg-0lax" align="center">52236/10544</td>
+    <td class="tg-0lax" align="center"><a href="https://pan.baidu.com/s/1VZSJg5KRYKRCn8DzIyPOLQ?pwd=ipno">Collected by us(Extraction code：ipno)</a></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh" align="center">DeepFashion</td>
+    <td class="tg-0lax" align="center">2016</td>
+    <td class="tg-0lax" align="center">1101*750</td>
+	<td class="tg-0lax" align="center">52712/*</td>
+    <td class="tg-0lax" align="center"><a href="https://github.com/yumingj/DeepFashion-MultiModal">Link</a></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh" align="center">VITON-HD</td>
+    <td class="tg-0lax" align="center">2021</td>
+    <td class="tg-0lax" align="center">1024*768</td>
+	<td class="tg-0lax" align="center">11647/2032</td>
+    <td class="tg-0lax" align="center"><a href="https://github.com/shadow2496/VITON-HD">Link</a></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh" align="center">ESF</td>
+    <td class="tg-0lax" align="center">2022</td>
+    <td class="tg-0lax" align="center">512*512</td>
+	<td class="tg-0lax" align="center">170000/10000</td>
+    <td class="tg-0lax" align="center"><a href="https://github.com/RuiLiFeng/Deep-Generative-Projection">Link</a></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh" align="center">DressCode</td>
+    <td class="tg-0lax" align="center">2022</td>
+    <td class="tg-0lax" align="center">1024*768</td>
+	<td class="tg-0lax" align="center">48392/5400</td>
+    <td class="tg-0lax" align="center"><a href="https://github.com/aimagelab/dress-code">Link</a></td>
+  </tr>
+  
 
 </tbody>
 </table>
