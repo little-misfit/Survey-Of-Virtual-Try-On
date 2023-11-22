@@ -117,7 +117,7 @@ Semantic Score:
     <td class="tg-0lax" align="center">2019</td>
     <td class="tg-0lax" align="center">256*192</td>
 	<td class="tg-0lax" align="center">52236/10544</td>
-    <td class="tg-0lax" align="center"><a href="https://pan.baidu.com/s/1VZSJg5KRYKRCn8DzIyPOLQ?pwd=ipno">Collected by us(Extraction code：ipno)</a></td>
+    <td class="tg-0lax" align="center"><a href="https://pan.baidu.com/s/1VZSJg5KRYKRCn8DzIyPOLQ?pwd=ipno">Collected by us(Extraction code:ipno)</a></td>
   </tr>
   <tr>
     <td class="tg-baqh" align="center">DeepFashion</td>
