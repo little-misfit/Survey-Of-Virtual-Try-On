@@ -37,7 +37,7 @@ To ensure a fair test for each model, we produced a high-resolution (1024x768) v
   - agnostic-person
 - 2032 test
 
-High-resolution [**Dataset(Coming Soon)**](https://github.com/little-misfit/Survey-Of-Virtual-Try-On).
+High-resolution [**Dataset**](https://pan.baidu.com/s/1Gf82137uCTKecF_h6f2eaA?pwd=mq5i).
 
 ### Experiment Results
 
@@ -46,7 +46,7 @@ We evaluated the models through two perspectives: visual results and quantitativ
 Visual results:
 ![visual results](readme/keshihua.jpg)
 
-More visual results from [**here(Coming Soon)**](https://github.com/little-misfit/Survey-Of-Virtual-Try-On).
+More visual results from [**here(BaiduYunDownload:pdub)**](https://pan.baidu.com/s/1YnyqAAHpQRDnTp5jObzpSg?pwd=pdub).
 
 Quantitative metrics:
 SSIM:
@@ -117,7 +117,7 @@ Semantic Score:
     <td class="tg-0lax" align="center">2019</td>
     <td class="tg-0lax" align="center">256*192</td>
 	<td class="tg-0lax" align="center">52236/10544</td>
-    <td class="tg-0lax" align="center"><a href="https://pan.baidu.com/s/1VZSJg5KRYKRCn8DzIyPOLQ?pwd=ipno">Collected by us(Extraction code:ipno)</a></td>
+    <td class="tg-0lax" align="center"><a href="https://pan.baidu.com/s/1VZSJg5KRYKRCn8DzIyPOLQ?pwd=ipno">Collected by us(BaiduYunDownload:ipno)</a></td>
   </tr>
   <tr>
     <td class="tg-baqh" align="center">DeepFashion</td>
@@ -146,6 +146,13 @@ Semantic Score:
     <td class="tg-0lax" align="center">1024*768</td>
 	<td class="tg-0lax" align="center">48392/5400</td>
     <td class="tg-0lax" align="center"><a href="https://github.com/aimagelab/dress-code">Link</a></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh" align="center">VITON(After Processing)</td>
+    <td class="tg-0lax" align="center">2022</td>
+    <td class="tg-0lax" align="center">1024*768</td>
+	<td class="tg-0lax" align="center">14221/2032</td>
+    <td class="tg-0lax" align="center"><a href="https://pan.baidu.com/s/1Gf82137uCTKecF_h6f2eaA?pwd=mq5i">BaiduYunDownload:mq5i</a></td>
   </tr>
 
   
