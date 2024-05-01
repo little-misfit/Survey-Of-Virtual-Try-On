@@ -19,7 +19,7 @@ If you find our survey useful for your research, please cite the following paper
 
 We have listed some of the most representative works in the field of virtual fitting from recent years.
 
-![Time-line](readme/Time_line.png)
+![Time-line](https://github.com/fengyun691340/Survey-Of-Virtual-Try-On/blob/main/Time_line3.png)
 
 
 ## 🔍 Experiments
@@ -43,16 +43,18 @@ High-resolution [**Dataset**](https://pan.baidu.com/s/1Gf82137uCTKecF_h6f2eaA?pw
 
 We evaluated the models through two perspectives: visual results and quantitative metrics.
 
-Visual results:
-![visual results](readme/keshihua.jpg)
+Visual results of VITON:
+![visual results of VITON](https://github.com/fengyun691340/Survey-Of-Virtual-Try-On/blob/main/keshitu_viton2.png)
+
+
+Visual results of VITON-HD:
+![visual results of VITON-HD](https://github.com/fengyun691340/Survey-Of-Virtual-Try-On/blob/main/keshitu_hd.jpg)
 
 More visual results from [**here(BaiduYunDownload:pdub)**](https://pan.baidu.com/s/1YnyqAAHpQRDnTp5jObzpSg?pwd=pdub).
 
-Quantitative metrics:
+Quantitative metrics of VITON:
 SSIM:
 ![SSIM](readme/plot_SSIM.png)
-IS:
-![IS](readme/plot_IS.png)
 FID:
 ![FID](readme/plot_FID.png)
 LPIPS:
@@ -60,6 +62,16 @@ LPIPS:
 Semantic Score:
 ![Semantic Score](readme/plot_Clip.png)
 
+
+Quantitative metrics of VITON-HD:
+SSIM:
+![SSIM](https://github.com/fengyun691340/Survey-Of-Virtual-Try-On/blob/main/plot_FID2_hd.png)
+FID:
+![FID](https://github.com/fengyun691340/Survey-Of-Virtual-Try-On/blob/main/plot_FID2_hd.png)
+LPIPS:
+![LPIPS](https://github.com/fengyun691340/Survey-Of-Virtual-Try-On/blob/main/plot_LPIPS2_hd.png)
+Semantic Score:
+![Semantic Score](https://github.com/fengyun691340/Survey-Of-Virtual-Try-On/blob/main/plot_Clip2_hd.png)
 
 
 
