@@ -19,7 +19,7 @@ If you find our survey useful for your research, please cite the following paper
 
 We have listed some of the most representative works in the field of virtual fitting from recent years.
 
-![Time-line](readme/Time_line.png)
+![Time-line](https://github.com/fengyun691340/Survey-Of-Virtual-Try-On/blob/main/Time_line3.png)
 
 
 ## 🔍 Experiments
